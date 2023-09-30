@@ -1,0 +1,51 @@
+/* สไตล์ตาราง */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* สไตล์ปุ่ม */
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* สไตล์ข้อมูลที่แก้ไข */
+.edit-row {
+    background-color: #ffcccb;
+}
+
+/* สไตล์ข้อมูลที่เพิ่ม */
+.new-row {
+    background-color: #aaffaa;
+}
+
+/* สไตล์ข้อมูลที่เลือก */
+.selected-row {
+    background-color: #ffc107;
+    color: #fff;
+}
+div {text-align: center;}
